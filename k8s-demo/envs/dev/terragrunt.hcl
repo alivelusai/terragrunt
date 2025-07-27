@@ -1,7 +1,6 @@
 terraform {
-  source = "/home/alivelu/myagent/sources/3/s/k8s-demo/namespace/main.tf"
+  source = "${get_env("SOURCE_PATH")}/k8s-demo/namespace"
 }
-
 inputs = {
-  namespace = "pipeline-namespace"
+  namespace = "env-namespace"
 }
