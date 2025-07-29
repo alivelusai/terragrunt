@@ -1,7 +1,8 @@
 terraform {
-  source = "/home/alivelu/k8s-demo/namespace/main.tf"
+  source = "${get_env("SOURCE_PATH")}/k8s-demo/namespace"
 }
-
 inputs = {
+
   namespace = "git-namespace"
+
 }
