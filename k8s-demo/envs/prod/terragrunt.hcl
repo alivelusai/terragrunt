@@ -3,5 +3,5 @@ terraform {
 }
 
 inputs = {
-  namespace = "test-namespace"
+  namespace = "prod-namespace"
 }

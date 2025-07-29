@@ -3,5 +3,5 @@ terraform {
 }
 
 inputs = {
-  namespace = "dev-namespace"
+  namespace = "git-namespace"
 }
